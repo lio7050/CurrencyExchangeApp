@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.service.CurrencyExchangeServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-08T09:48:12" hostname="prashants-MacBook-Air.local" time="3.64">
-  <properties/>
-  <testcase name="testExchangeRate()" classname="com.example.service.CurrencyExchangeServiceTest" time="3.64"/>
-  <system-out><![CDATA[15:18:16.069 [Test worker] INFO com.example.service.CurrencyExchangeService -- Fetching exchange rate from: https://open.er-api.com/v6/latest/ for currencyType USD
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
