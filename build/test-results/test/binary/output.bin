@@ -1,0 +1,1 @@
+¤15:18:16.069 [Test worker] INFO com.example.service.CurrencyExchangeService -- Fetching exchange rate from: https://open.er-api.com/v6/latest/ for currencyType USD
