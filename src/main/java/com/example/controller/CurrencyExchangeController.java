@@ -3,13 +3,15 @@ package com.example.controller;
 import com.example.currencyexchange.BillRequest;
 import com.example.service.CurrencyExchangeService;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.beans.factory.annotation.Autowired;
 
 @RestController
 @RequestMapping("/api")
 class CurrencyExchangeController {
-    @Autowired
-    private CurrencyExchangeService exchangeService;
+    private final CurrencyExchangeService exchangeService;
+
+    public CurrencyExchangeController(CurrencyExchangeService exchangeService) {
+        this.exchangeService = exchangeService;
+    }
 
     @PostMapping("/calculate")
     public double calculatePayableAmount(@RequestBody BillRequest billRequest) {
